@@ -1,0 +1,26 @@
+PROJECT: SKYLINE RESIDENCES
+
+Developer: XYZ Developers Pvt Ltd
+Location: Powai, Mumbai
+
+Unit: 3 BHK
+Carpet Area: 1,320 sq.ft.
+Price: ₹3,45,00,000
+
+Amenities:
+- Swimming Pool
+- Clubhouse
+- Gym
+- Business Center
+- Children's Park
+
+Connectivity:
+- Airport: 8 km
+- Metro: 500 m
+- Business District: 4 km
+
+Expected Rental Yield: 3.8%
+Expected Appreciation: 9% annually
+
+RERA No:
+P51800056789

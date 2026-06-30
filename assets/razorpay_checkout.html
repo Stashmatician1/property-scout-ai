@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Razorpay Checkout</title>
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+</head>
+<body style="font-family: Arial, sans-serif; padding: 24px;">
+  <h2>🔒 Complete Your Purchase</h2>
+  <p>
+  Purchase the Professional AI Property Report securely using Razorpay.
+  </p>
+  <button id="pay-button" style="padding: 12px 20px; font-size: 16px; cursor: pointer;">Pay ₹250</button>
+  <p id="status" style="margin-top: 16px;"></p>
+
+  <script>
+    const keyId = "{{RAZORPAY_KEY_ID}}";
+    const button = document.getElementById("pay-button");
+    const status = document.getElementById("status");
+
+    button.addEventListener("click", async () => {
+      status.textContent = "Creating order...";
+      try {
+        const response = await fetch("/api/create-order", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ amount: 250, currency: "INR", receipt: "property-intelligence" })
+        });
+
+        const data = await response.json();
+        if (!response.ok || data.status !== "success") {
+          throw new Error(data.message || "Unable to create order");
+        }
+
+        const options = {
+          key: keyId,
+          amount: data.amount,
+          currency: data.currency,
+          name: "Scorpio Realty AI",
+          description: "Secure payment",
+          order_id: data.order_id,
+          handler: async function (response) {
+            status.textContent = "Verifying payment...";
+            const verifyResponse = await fetch("/api/verify-payment", {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({
+                razorpay_payment_id: response.razorpay_payment_id,
+                razorpay_order_id: response.razorpay_order_id,
+                razorpay_signature: response.razorpay_signature
+              })
+            });
+            const verifyData = await verifyResponse.json();
+            if (verifyResponse.ok && verifyData.status === "success") {
+              status.textContent = "Payment verified successfully.";
+            } else {
+              status.textContent = verifyData.message || "Payment verification failed.";
+            }
+          },
+          modal: {
+            ondismiss: function () {
+              status.textContent = "Payment cancelled.";
+            }
+          },
+          prefill: {
+            name: "Customer",
+            email: "customer@example.com"
+          },
+          theme: {
+            color: "#3399cc"
+          }
+        };
+
+        const rzp = new Razorpay(options);
+        rzp.on("payment.failed", function (response) {
+          status.textContent = response.error.description || "Payment failed.";
+        });
+        rzp.open();
+      } catch (error) {
+        status.textContent = error.message;
+      }
+    });
+  </script>
+</body>
+</html>

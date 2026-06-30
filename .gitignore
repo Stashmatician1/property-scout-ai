@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environments
+venv/
+.venv/
+
+# Environment Variables
+.env
+
+# Streamlit
+.streamlit/
+
+# Upload folders
+uploads/
+temp/
+
+# Marketing assets
+videos/
+audio-files/
+insta-reel/
+carrd-page/
+
+# PowerPoint
+*.pptx
+
+# Windows
+Thumbs.db
+
+# macOS
+.DS_Store

@@ -1,0 +1,40 @@
+{
+    "status": "success",
+    "summary": "\nPROPERTY INTELLIGENCE REPORT\n\nLocation:\nWhitefield Main Road,\n\nBuilder:\nPrestige\n\nProperty Size:\n1685 sq.ft\n\nProperty Price:\n₹28,500,000\n\n\nInvestment Score:\n74.75/100\n\nRisk Score:\n25.25/100\n\nRecommendation:\nBUY\n\n\nEstimated EMI:\n₹238,651\n\nDebt Ratio:\n238.65%\n\nAffordability:\nHigh Risk\n",
+    "location": "Whitefield Main Road,",
+    "builder": "Prestige",
+    "property_size": 1685,
+    "property_price": 28500000,
+    "entities": {
+        "location": "Whitefield Main Road,",
+        "builder": "Prestige",
+        "size_sqft": 1685
+    },
+    "scores": {
+        "investment": 74.75,
+        "risk": 25.25,
+        "location": 60,
+        "connectivity": 85,
+        "lifestyle": 70
+    },
+    "geo_location": {
+        "lat": 12.9622999,
+        "lon": 77.7479219
+    },
+    "affordability": {
+        "loan_amount": 27500000.0,
+        "estimated_emi": 238651.39,
+        "debt_ratio": 238.65,
+        "income_utilization": 238.65,
+        "affordability_rating": "High Risk",
+        "property_price": 28500000,
+        "down_payment": 1000000.0,
+        "loan_to_value": 96.49
+    },
+    "wealth_ratio": 23.75,
+    "verdict": "BUY",
+    "grade": "B",
+    "confidence": 100,
+    "score_color": "orange",
+    "document_preview": "PROPERTY INVESTMENT REPORT\r\nProject Name: Prestige Lakeside Residences\r\nDeveloper: Prestige Group\r\nProperty Type: Luxury Residential Apartment\r\n\r\nLocation:\r\nWhitefield Main Road,\r\nWhitefield,\r\nBengaluru,\r\nKarnataka,\r\nIndia\r\n\r\nLatitude: 12.9698\r\nLongitude: 77.7499\r\n\r\nRERA Registration:\r\nPRM/KA/RERA/1251/446/PR/210223/004587\r\n\r\nProperty Details\r\nConfiguration: 3 BHK\r\nCarpet Area: 1685 sq.ft\r\nBuilt-Up Area: 2120 sq.ft\r\n\r\nFloor: 17\r\nTotal Floors: 28\r\nFacing: East\r\n\r\nParking:\r\n2 Covered Parking Spaces\r\nProperty Price:\r\n₹2,85,00,000\r\n\r\nRegistration Charges:\r\n₹17,10,000\r\n\r\nStamp Duty:\r\n₹14,25,000\r\n\r\nLegal Charges:\r\n₹75,000\r\n\r\nTotal Acquisition Cost:\r\n₹3,17,10,000\r\n\r\nNearby Infrastructure\r\n\r\nMetro Station:\r\nKadugodi Metro Station\r\nDistance: 1.4 km\r\n\r\nAirport:\r\nKempegowda International Airport\r\nDistance: 34 km\r\n\r\nRailway Station:\r\nWhitefield Railway Station\r\nDistance: 3.8 km\r\n\r\nBus Terminal:\r\nWhitefield Bus Depot\r\nDistance: 2.1 km\r\n\r\nEmployment Hubs\r\n\r\nITPL Tech Park:\r\n1.2 km\r\n\r\nEPIP Zone:\r\n1.5 km\r\n\r\nBrigade Tech Gardens:\r\n4.3 km\r\n\r\nInternational Tech Park Bangalore:\r\n1.1 km\r\n\r\nEducational Institutions\r\n\r\nDeens Academy:\r\n2.3 km\r\n\r\nDelhi Public School:\r\n3.1 km\r\n\r\nVydehi Institute:\r\n2.7 km\r\n\r\nHospitals\r\n\r\nManipal Hospital Whitefield:\r\n2.5 km\r\n\r\nVydehi Hospital:\r\n2.0 km\r\n\r\nSakra World Hospital:\r\n8.1 km\r\n\r\nRetail & Lifestyle\r\n\r\nPhoenix Marketcity:\r\n5.2 km\r\n\r\nForum Shantiniketan:\r\n1.7 km\r\n\r\nNexus Whitefield:\r\n2.4 km\r\n\r\nLifestyle Amenities\r\n\r\nSwimming Pool\r\n\r\nGymnasium\r\n\r\nClubhouse\r\n\r\nYoga Deck\r\n\r\nJogging Track\r\n\r\nIndoor Games\r\n\r\nChildren's Play Area\r\n\r\nLandscaped Gardens\r\n\r\nCo-working Lounge\r\n\r\nEV Charging Infrastructure\r\n\r\nFinancial Metrics\r\n\r\nExpected Rental Income:\r\n₹85,000 per month\r\n\r\nExpected Annual Rental Yield:\r\n3.58%\r\n\r\nExpected Occupancy:\r\n96%\r\n\r\nExpected Appreciation:\r\n10.5% CAGR\r\n\r\nProjected Value After 5 Years:\r\n₹4,67,00,000\r\n\r\nProjected Value After 10 Years:\r\n₹7,68,00,000\r\n\r\nRisk Assessment\r\n\r\nBuilder Reputation:\r\nExcellent\r\n\r\nConstruction Status:\r\nNear Completion\r\n\r\nTitle Verification:\r\nClear\r\n\r\nLitigation Status:\r\nNo Known Litigation\r\n\r\nFlood Risk:\r\nLow\r\n\r\nEnvironmental Risk:\r\nLow\r\n\r\nPolitical Risk:\r\nLow\r\n\r\nMarket Risk:\r\nModerate\r\nInvestment Summary\r\n\r\nLocation Score:\r\n92/100\r\nConnectivity Score:\r\n88/100\r\n\r\nLifestyle Score:\r\n90/100\r\nRental Yield Score:\r\n78/100\r\n\r\nAppreciation Potential:\r\n91/100\r\nOverall Investment Score:\r\n89/100\r\n\r\nInvestment Grade:\r\nA+\r\n\r\nRecommendation:\r\nSTRONG BUY\r\n\r\nExecutive Summary\r\n\r\nPrestige Lakeside Residences is a premium residential development located in Whitefield, Bengaluru. The project benefits from proximity to major technology parks, metro connectivity, strong rental demand from technology professionals, and a high-quality developer reputation. The property demonstrates excellent long-term appreciation potential and stable rental cash flows, making it attractive for both domestic and NRI investors seeking exposure to India's growing technology corridor."
+}
