@@ -11,8 +11,6 @@ API_URL = f"{BASE_URL}/analyze-property"
 HEALTH_URL = f"{BASE_URL}/"
 PAYMENT_URL = f"{BASE_URL}/payment"
 
-API_URL = "https://web-production-01f9.up.railway.app/analyze-property"
-HEALTH_URL = "https://web-production-01f9.up.railway.app/"
 APP_TITLE = "Mumbai Property Valuation AI"
 
 # ==================================================
@@ -935,7 +933,7 @@ if data:
 
             st.link_button(
                 "💳 Purchase Report",
-                "http://127.0.0.1:8000/payment",
+                PAYMENT_URL,
                 use_container_width=True
             )
 
