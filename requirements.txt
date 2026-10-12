@@ -1,64 +1,10 @@
-# =====================================================
-# Property Intelligence Platform
-# Production Requirements
-# =====================================================
-
-# -------------------------------
-# Web Framework
-# -------------------------------
 fastapi
 uvicorn[standard]
-streamlit
-
-# -------------------------------
-# Data Processing
-# -------------------------------
-numpy
-pandas
-scipy
-scikit-learn
-
-# -------------------------------
-# Machine Learning
-# -------------------------------
-torch
-transformers
-sentence-transformers
-faiss-cpu
-
-# -------------------------------
-# PDF & OCR
-# -------------------------------
+python-multipart
+python-dotenv
+razorpay
 PyMuPDF
 pypdf
 pytesseract
 Pillow
-
-# -------------------------------
-# HTTP / API
-# -------------------------------
 requests
-httpx
-python-multipart
-python-dotenv
-
-# -------------------------------
-# AI
-# -------------------------------
-openai
-
-# -------------------------------
-# Payment Gateway
-# -------------------------------
-razorpay
-
-# -------------------------------
-# Visualisation
-# -------------------------------
-matplotlib
-
-# -------------------------------
-# Utility Packages
-# -------------------------------
-tqdm
-typing-extensions
