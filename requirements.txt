@@ -8,3 +8,4 @@ pypdf
 pytesseract
 Pillow
 requests
+streamlit>=1.50
