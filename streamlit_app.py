@@ -5,6 +5,12 @@ import pandas as pd # type: ignore
 import requests # type: ignore
 import streamlit as st # type: ignore # type: ignore
 
+import os
+BASE_URL = os.getenv("API_BASE_URL", "http://127.0.0.1:8000")
+API_URL = f"{BASE_URL}/analyze-property"
+HEALTH_URL = f"{BASE_URL}/"
+PAYMENT_URL = f"{BASE_URL}/payment"
+
 API_URL = "https://web-production-01f9.up.railway.app/analyze-property"
 HEALTH_URL = "https://web-production-01f9.up.railway.app/"
 APP_TITLE = "Mumbai Property Valuation AI"
